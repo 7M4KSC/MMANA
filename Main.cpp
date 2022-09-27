@@ -3672,7 +3672,7 @@ void __fastcall TMainWnd::PrintBtnClick(TObject *Sender)
 
 		int pw = rc.Right - rc.Left;
 		int ph = rc.Bottom - rc.Top;
-		Printer()->Canvas->Font->Height = sqrt(pw * ph)/45;
+		Printer()->Canvas->Font->Height = sqrt((long double)(pw * ph))/45;
 
 		rc.Left = (pw/20);
 		rc.Top = (ph/20);
