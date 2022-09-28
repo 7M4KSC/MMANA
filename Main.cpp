@@ -3672,7 +3672,7 @@ void __fastcall TMainWnd::PrintBtnClick(TObject *Sender)
 
 		int pw = rc.Right - rc.Left;
 		int ph = rc.Bottom - rc.Top;
-		Printer()->Canvas->Font->Height = sqrt((long double)(pw * ph))/45;
+		Printer()->Canvas->Font->Height = sqrt((long double)(pw * ph))/45; // 7m4ksc
 
 		rc.Left = (pw/20);
 		rc.Top = (ph/20);
@@ -4431,7 +4431,7 @@ void __fastcall TMainWnd::LoadDispatch(LPCSTR pName)
 //---------------------------------------------------------------------------
 void __fastcall TMainWnd::KMMANAWebW1Click(TObject *Sender)
 {
-	WebRef.ShowHTML("http://plaza27.mbn.or.jp/~je3hht/mmana/index.html");	
+	WebRef.ShowHTML("http://je3hht.g1.xrea.com/mmana/index.html");
 }
 //---------------------------------------------------------------------------
 

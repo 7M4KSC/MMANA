@@ -555,7 +555,7 @@ void __fastcall TBwDispDlg::PrintBtnClick(TObject *Sender)
 		TRect rc = Printer()->Canvas->ClipRect;
 		int pw = rc.Right - rc.Left;
 		int ph = rc.Bottom - rc.Top;
-		cp->Font->Height = sqrt((long double)(pw * ph))/60;
+		cp->Font->Height = sqrt((long double)(pw * ph))/60; // 7m4ksc
 		pw = (pw*19)/20;
 		ph = (ph*19)/20;
 		int xf = pw/40;

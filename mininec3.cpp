@@ -2010,7 +2010,7 @@ int InitAntData(ANTDEF *ap)
 	};
 	int	i;
 
-	P=4*atan((long double)1);
+	P=4*atan((long double)1); // 7m4ksc
 	/*REM ----- CHANGES DEGREES TO RADIANS*/
 	P0=P/180;
 	/*REM ----- INTRINSIC IMPEDANCE OF FREE SPACE DIVIDED BY 2 PI*/
