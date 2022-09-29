@@ -2486,7 +2486,7 @@ int InitNEC(int max)
 
 	while(max > 0){
 		int amax = max + 1;
-		try {
+		//try { @10.4
 			aX = new double[(WZMAX*2)+amax];
 			aY = new double[(WZMAX*2)+amax];
 			aZ = new double[(WZMAX*2)+amax];
@@ -2504,11 +2504,11 @@ int InitNEC(int max)
 			aL = new double[WZMAX+amax];
 			aM = new double[WZMAX+amax];
 			break;
-		}
-		catch(xalloc){ // xalloc が送出された場合にのみこのブロックに入る
-			max -= 256;
-			DeleteNEC();
-		}
+		//} @10.4
+		//catch(xalloc){ // xalloc が送出された場合にのみこのブロックに入る @10.4
+		//	max -= 256; @10.4
+		//	DeleteNEC(); @10.4
+		//} @10.4
 	}
 	if( max < 0 ) max = 0;
 	return max;
