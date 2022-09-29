@@ -77,7 +77,7 @@ public:		// ÉÜÅ[ÉUÅ[êÈåæ
 	__fastcall ~TPrintDlgBox();
 
     int __fastcall Execute(void);
-	inline __fastcall SetDocTitle(LPCSTR pTitle){
+	void inline __fastcall SetDocTitle(LPCSTR pTitle){
 		mDocTitle = pTitle;
     };
 	void __fastcall SetMargin(int left, int top, int right, int bottom);

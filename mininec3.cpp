@@ -1397,7 +1397,7 @@ L692:;	/* :L684	*/
 		/* REM ----- INCREMENT AZIMUTH ANGLE	*/
 		Q1=Q1+AC;
 	}
-//	if( fp != NULL ) fclose(fp);
+	if( fp != NULL ) fclose(fp);
 }
 
 void S875(void)
