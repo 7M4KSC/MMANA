@@ -23,5 +23,9 @@ C++ Builder XE4には数種類のバージョンがありますが、一番安�
 JA7UDE
 大庭
 
+=====
 
+JA7UDE/大庭OMのポーティングをベースに、Embarcadero C++ Builder 10.4 Community Edition(2022/9の時点で最新の無料版)でビルド出来る様に修正しました。
+
+de 7M4KSC
 
